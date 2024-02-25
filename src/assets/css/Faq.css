@@ -1,0 +1,60 @@
+.faq {
+    background: #000;
+    color: #fff; 
+}
+.faq h3 {
+    text-align: center;
+    color: #FF8A56;
+    font-size: 21px;
+    letter-spacing: 3px;
+}
+.faq h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.accordion {
+    padding-top: 60px;
+    overflow: hidden;
+}
+.faq h1 {
+    font-size: 19px;
+}
+.faq .down p{
+    opacity: .7;
+    font-size: 16px;
+    font-style: italic;
+}
+.accordion .up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.active .img-fluid {
+    transform: rotate(180deg);
+    transition: transform .9s ease-in;
+}
+.longline {
+    width: 100%;
+    height: 1px;
+    background-color: #dedede;
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .faq h3 {
+        font-size: 30px;
+    }
+    .faq h2 {
+        font-size: 42px;
+    }
+    .faq h1 {
+        font-size: 27px;
+    }
+    .faq .down p {
+        font-size: 22px;
+    }
+
+}

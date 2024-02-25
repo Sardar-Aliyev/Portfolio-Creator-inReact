@@ -1,0 +1,81 @@
+.project .left h4 {
+    color: #B16CEA;
+    font-size: 24px;
+    letter-spacing: 3.4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.project .left h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    font-weight: 800;
+}
+.project .right {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  padding-bottom: 20px;
+}
+.cards {
+    transform: translateY(8%);
+    z-index: 99;
+}
+.card-body  h3{
+    color: #3C46FF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.card-body  h4{
+    color: #000;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.card-body a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+.card-body img {
+    width: 15px;
+}
+.card:hover {
+    box-shadow: 3px 2px 5px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(70, 15, 15, 0.19);
+}
+
+@media (min-width:768px) and (max-width :991px) {
+    .card-body  h3{
+        font-size: 19px;
+    }
+    .card-body  h4{
+        font-size: 23px;
+    }
+    
+    .card-body a {
+        font-size: 19.5px;
+        
+    }
+    .cards {
+        transform: translateY(15%);
+    }
+}
+@media (min-width:992px) {
+    .project .left h4 {
+        text-align: left;
+        font-size: 30px;
+    }
+    .project .left h2 {
+        text-align: left;
+        font-size: 30px;
+    }
+    .project .right {
+        justify-content: flex-end;
+    }
+    .cards {
+        transform: translateY(17%);
+    }
+}

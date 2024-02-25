@@ -1,0 +1,26 @@
+[
+    {
+        "service_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1707329194/IMAGE_2_pxah8r.png",
+        "service_title": "What I can do for you",
+        "service_text": "Faster, better products that your users love. Here's all the services I provide:",
+        "service_info1": "Design Strategy",
+        "service_info2": "Front-end Development",
+        "service_info3": "Web and Mobile App Design"
+    },
+    {
+        "service_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1707329194/IMAGE_1_zhezlc.png",
+        "service_title": "Applications I'm fluent in",
+        "service_text": "Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.",
+        "service_info1": "Sketch",
+        "service_info2": "Webflow",
+        "service_info3": "Figma"
+    },
+    {
+        "service_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1707329194/IMAGE_rhacpu.png",
+        "service_title": "What you can expect",
+        "service_text": "I design products that are more than pretty. I make them shippable and usable.",
+        "service_info1": "Clean and functional",
+        "service_info2": "Device and user friendly",
+        "service_info3": "Efficient and maintainable"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "company_name": "bmw",
+        "company_pic": "https://res.cloudinary.com/veyseloglu/image/upload/v1707293943/IMAGE-3_doorri.png"
+    },
+    {
+        "company_name": "merceders",
+        "company_pic": "https://res.cloudinary.com/veyseloglu/image/upload/v1707293942/IMAGE-2_behvml.png"
+    },
+    {
+        "company_name": "lada",
+        "company_pic": "https://res.cloudinary.com/veyseloglu/image/upload/v1707293941/IMAGE-1_whmdjp.png"
+    },
+    {
+        "company_name": "nissan",
+        "company_pic": "https://res.cloudinary.com/veyseloglu/image/upload/v1707293939/IMAGE_l3hmao.png"
+    }
+    
+]

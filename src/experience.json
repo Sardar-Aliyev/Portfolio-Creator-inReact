@@ -1,0 +1,51 @@
+[
+{
+    "pic":"https://res.cloudinary.com/veyseloglu/image/upload/v1708247140/Education_dztki6.png"
+},
+{
+    "pic":"https://res.cloudinary.com/veyseloglu/image/upload/v1708247140/Work_Experience_ymmz5y.png"
+},
+    {
+        
+        "title": "Stanford University",
+        "vector_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247279/Vector_kzqvwt.png",
+        "body": "MSc (Human Computer Interaction)",
+        "date": "• 2013-2015"
+    },
+    {
+        
+        "image": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247140/IMAGE_1_mjdk4u.png",
+        "title": "MusicMash",
+        "vector_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247279/Vector_kzqvwt.png",
+        "body": "Senior Product Designer",
+        "date": "• 2015-2019"
+    },
+    {
+        "title": "MIT Summer School",
+        "vector_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247279/Vector_kzqvwt.png",
+        "body": "California State University",
+        "date": "• 2009-2012"
+    },
+ 
+  
+    {
+        "image": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247140/IMAGE_kxmld4.png",
+        "title": "SpaceFleet",
+        "vector_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247279/Vector_kzqvwt.png",
+        "body": "BSc in Software Engineering",
+        "date": "• 2015-2019"
+    },
+    {
+        "title": "California State University",
+        "vector_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247279/Vector_kzqvwt.png",
+        "body": "UX Training Bootcamp",
+        "date": "• 2009-2012"
+    },
+    {
+        "image": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247140/IMAGE_2_aw0ofs.png",
+        "title": "Kingdom",
+        "vector_img": "https://res.cloudinary.com/veyseloglu/image/upload/v1708247279/Vector_kzqvwt.png",
+        "body": "UI Designer",
+        "date": "• 2015-2019"
+    }
+]

@@ -1,0 +1,80 @@
+.overlay-menu {
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    overflow-x: hidden;
+    transition: all .6s ease-in-out;
+    z-index: 3;
+}
+.overlay-menu .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.overlay-menu .nav-links a {
+    color: #ccc;
+    font-size: 35px;
+    transition: all .5s;
+}
+.overlay-Btn {
+    color: #ccc;
+    background-color: transparent;
+    font-size: 35px !important;
+}
+.overlay-Btn:hover,
+.nav-links a:hover {
+    color: #000;
+}
+.x-icon {
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.navBtn {
+    background: transparent;
+}
+.navimg {
+    width: 200px;
+}
+.nav-item a {
+    font-size: 17px;
+}
+.nav-item a::after,
+.navBtn::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: all .6s linear;
+    transition-delay: .3s;
+    background-color: #000;
+}
+.nav-item a:hover::after,
+.navBtn:hover::after {
+    width: 100%;
+}
+
+@media (max-width:320px) {
+  .navimg {
+    width: 180px;
+  }
+}
+
+@media (min-width:768px) and (max-width :991px){
+    .navimg {
+        width: 310px;
+    }
+    .over-Btn {
+        font-size: 33px;
+    }
+  
+}

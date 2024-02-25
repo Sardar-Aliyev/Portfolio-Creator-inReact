@@ -1,0 +1,99 @@
+.introduction img {
+    width: 100%;
+}
+.left-side {
+    text-align: center;
+}
+.introduction span {
+    color: #FF8A56;
+    font-size: 40px;
+    font-weight: 700;
+}
+.introduction h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.introduction p {
+    color: #666;
+    font-size: 22px;
+}
+.btn-all {
+    border: 0;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+.book-btn {
+    background-color: #000;
+    color: #fff;
+}
+.download-btn {
+    color: #000;
+    background-color: transparent;
+}
+.introduction .right-side {
+    padding-top: 20px;    
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width:320px) {
+    .introduction span,
+    .introduction h2 {
+        font-size: 35px;
+    }
+    .introduction p {
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) and (max-width :991px) {
+    .left-side {
+        padding-top: 50px;
+        text-align: left;
+    }
+    .btn-all {
+        border: 0;
+        outline: none;
+        padding: 13px 22px;
+        font-size: 20px;
+    }
+    .introduction span {
+        font-size: 40px;
+    }
+    .introduction h2 {
+        font-size: 40px;
+    }
+    .introduction p {
+        font-size: 25px;
+    }
+  .introduction .right-side {
+    padding-top: 0;    
+}
+}
+
+@media (min-width:992px) {
+ 
+    .left-side {
+        padding-top: 50px;
+        text-align: left;
+    }
+    .introduction span {
+        font-size: 60px;
+    }
+    .introduction h2 {
+        font-size: 60px;
+    }
+     .introduction p {
+        font-size: 22px;
+        width: 85%;
+    }
+    .introduction .right-side {
+        padding-top: 0;    
+    }
+    
+}
